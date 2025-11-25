@@ -61,16 +61,11 @@ Observação: O autoload próprio (`autoload.php`) já está configurado. Compos
 1. Criar nova estratégia `src/Domain/Pricing/NovoTipoPricingStrategy.php` implementando `PricingStrategy`
 2. Registrar no `PricingService` adicionando o tipo na lista de estratégias
 
-## Divisão de trabalho (4 integrantes)
+## Divisão de trabalho 
 
 - Domain: entidades e enum de tipos
 - Application: serviços (check-in, check-out, relatório)
 - Infra: repositório SQLite e migração
 - Frontend: HTML/Tailwind e fluxo de formulário
 
-## Entregáveis
 
-- Código em repositório GitHub
-- Este README com estrutura e instruções
-- Demonstração (vídeo curto ou prints)
-- Apresentação breve (5 minutos)
